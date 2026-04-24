@@ -1,41 +1,41 @@
 import math
 
-class Shape_eas:
-    def area_eas(self_eas):
+class Shape_kwap:
+    def area_kwap(self_kwap):
         pass  # Placeholder for polymorphism
 
 
-class Rectangle_eas(Shape_eas):
-    def __init__(self_eas, width_eas, height_eas):
-        self_eas.width_eas = width_eas
-        self_eas.height_eas = height_eas
+class Rectangle_kwap(Shape_kwap):
+    def __init__(self_kwap, width_kwap, height_kwap):
+        self_kwap.width_kwap = width_kwap
+        self_kwap.height_kwap = height_kwap
 
-    def area_eas(self_eas):
-        return self_eas.width_eas * self_eas.height_eas
-
-
-class Circle_eas(Shape_eas):
-    def __init__(self_eas, radius_eas):
-        self_eas.radius_eas = radius_eas
-
-    def area_eas(self_eas):
-        return math.pi * self_eas.radius_eas ** 2
+    def area_kwap(self_kwap):
+        return self_kwap.width_kwap * self_kwap.height_kwap
 
 
-class Triangle_eas(Shape_eas):
-    def __init__(self_eas, base_eas, height_eas):
-        self_eas.base_eas = base_eas
-        self_eas.height_eas = height_eas
+class Circle_kwap(Shape_kwap):
+    def __init__(self_kwap, radius_kwap):
+        self_kwap.radius_kwap = radius_kwap
 
-    def area_eas(self_eas):
-        return 0.5 * self_eas.base_eas * self_eas.height_eas
+    def area_kwap(self_kwap):
+        return math.pi * self_kwap.radius_kwap ** 2
+
+
+class Triangle_kwap(Shape_kwap):
+    def __init__(self_kwap, base_kwap, height_kwap):
+        self_kwap.base_kwap = base_kwap
+        self_kwap.height_kwap = height_kwap
+
+    def area_kwap(self_kwap):
+        return 0.5 * self_kwap.base_kwap * self_kwap.height_kwap
 
 
 # Example usage
-rectangle_eas = Rectangle_eas(10, 5)
-circle_eas = Circle_eas(5)
-triangle_eas = Triangle_eas(8, 6)
+rectangle_kwap = Rectangle_kwap(10, 5)
+circle_kwap = Circle_kwap(5)
+triangle_kwap = Triangle_kwap(8, 6)
 
-print(f"Rectangle Area: {rectangle_eas.area_eas()}")
-print(f"Circle Area: {circle_eas.area_eas():.1f}")
-print(f"Triangle Area: {triangle_eas.area_eas()}")
+print(f"Rectangle Area: {rectangle_kwap.area_kwap()}")
+print(f"Circle Area: {circle_kwap.area_kwap():.1f}")
+print(f"Triangle Area: {triangle_kwap.area_kwap()}")
