@@ -1,11 +1,11 @@
-class Person_eas:
-    def __init__(self_eas, name_eas, age_eas):
-        self_eas.name_eas = name_eas
-        self_eas.age_eas = age_eas
+class Person_kwap:
+    def __init__(self_kwap, name_kwap, age_kwap):
+        self_kwap.name_kwap = name_kwap
+        self_kwap.age_kwap = age_kwap
     
-    def display_info_adb(self_eas):
-        print("Name:", self_eas.name_eas)
-        print("Age:", self_eas.age_eas)
+    def display_info_kwap(self_kwap):
+        print("Name:", self_kwap.name_kwap)
+        print("Age:", self_kwap.age_kwap)
 
-p1_eas = Person_eas("Juan", 20)
-p1_eas.display_info_eas()
+p1_kwap = Person_kwap("Juan", 20)
+p1_kwap.display_info_kwap()
