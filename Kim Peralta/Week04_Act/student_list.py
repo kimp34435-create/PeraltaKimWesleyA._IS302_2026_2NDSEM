@@ -1,10 +1,10 @@
-students_eas = []
+students_kwap = []
 
-for i_eas in range(5):
-    name_eas = input("Enter student name: ")
-    students_eas.append(name_eas)
+for i_kwap in range(5):
+    name_kwap = input("Enter student name: ")
+    students_kwap.append(name_kwap)
 
 print("\nStudent List:")
 
-for student_eas in students_eas:
-    print(student_eas)
+for student_kwap in students_kwap:
+    print(student_kwap)
