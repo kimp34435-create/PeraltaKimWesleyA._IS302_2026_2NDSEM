@@ -1,8 +1,8 @@
-student_name_eas = "Maria Santos"
-age_eas = 20
-course_eas = "BSIS"
-gpa_eas + = 1.75
-print("Student Name:", student_name_eas)
-print("Age:", age_eas)
-print("Course:", course_eas)
-print("GPA:", gpa_eas)
+student_name_kwap = "Maria Santos"
+age_kwap = 20
+course_kwap = "BSIS"
+gpa_kwap + = 1.75
+print("Student Name:", student_name_kwap)
+print("Age:", age_kwap)
+print("Course:", course_kwap)
+print("GPA:", gpa_kwap)
