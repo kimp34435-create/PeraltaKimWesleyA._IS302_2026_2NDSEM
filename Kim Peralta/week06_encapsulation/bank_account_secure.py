@@ -1,20 +1,21 @@
-class BankAccount_eas:
-    def __init__(self_eas, balance_eas):
-        self_eas.__balance = balance_eas
+class BankAccount_kwap:
+    def __init__(self_kwap, balance_kwap):
+        self_kwap.__balance = balance_kwap
 
-    def deposit_eas(self_eas, amount_eas):
-        self_eas.__balance += amount_eas
+    def deposit_kwap(self_kwap, amount_kwap):
+        self_kwap.__balance += amount_kwap
 
-    def withdraw_eas(self_eas, amount_eas):
-        if amount_eas <= self_eas.__balance:
-            self_eas.__balance -= amount_eas
+    def withdraw_kwap(self_kwap, amount_kwap):
+        if amount_kwap <= self_kwap.__balance:
+            self_kwap.__balance -= amount_kwap
         else:
             print("Insufficient funds")
 
-    def get_balance_eas(self_eas):
-        return self_eas.__balance
+    def get_balance_kwap(self_kwap):
+        return self_kwap.__balance
 
-account_eas = BankAccount_eas(5000)
-account_eas.deposit_nbs(1000)
-account_eas.withdraw_nbs(2000)
-print("Balance_eas:", account_eas.get_balance_eas())
+
+account_kwap = BankAccount_kwap(5000)
+account_kwap.deposit_kwap(1000)
+account_kwap.withdraw_kwap(2000)
+print("Balance_kwap:", account_kwap.get_balance_kwap())
