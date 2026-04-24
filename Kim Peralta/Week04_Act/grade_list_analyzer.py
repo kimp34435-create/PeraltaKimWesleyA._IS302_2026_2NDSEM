@@ -1,19 +1,19 @@
 print("----- GRADE LIST ANALYZER -----")
-grades_eas = []
+grades_kwap = []
 
 # Ask user to enter 5 grades
-for i_eas in range(1, 6):
-    grade_eas = float(input(f"Enter grade {i_eas}: "))
-    grades_eas.append(grade_eas)
+for i_kwap in range(1, 6):
+    grade_kwap = float(input(f"Enter grade {i_kwap}: "))
+    grades_kwap.append(grade_kwap)
 
 # Compute statistics
-average_grade_eas = sum(grades_eas) / len(grades_eas)
-highest_grade_eas = max(grades_eas)
-lowest_grade_eas = min(grades_eas)
+average_grade_kwap = sum(grades_kwap) / len(grades_kwap)
+highest_grade_kwap = max(grades_kwap)
+lowest_grade_kwap = min(grades_kwap)
 
 # Display results
 print("\n----- RESULTS -----")
-print("Grades:", grades_eas)
-print("Average Grade:", round(average_grade_eas, 1))
-print("Highest Grade:", highest_grade_eas)
-print("Lowest Grade:", lowest_grade_eas)
+print("Grades:", grades_kwap)
+print("Average Grade:", round(average_grade_kwap, 1))
+print("Highest Grade:", highest_grade_kwap)
+print("Lowest Grade:", lowest_grade_kwap)
