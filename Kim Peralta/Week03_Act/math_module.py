@@ -1,14 +1,14 @@
-def add(a_eas, b_eas):
-    return a_eas + b_eas
+def add(a_kwap, b_kwap):
+    return a_kwap + b_kwap
 
 
-def subtract(a_eas, b_eas):
-    return a_eas - b_eas
+def subtract(a_kwap, b_kwap):
+    return a_kwap - b_kwap
 
 
-def multiply(a_eas, b_eas):
-    return a_eas * b_eas
+def multiply(a_kwap, b_kwap):
+    return a_kwap * b_kwap
 
 
-def divide(a_eas, b_eas):
-    return a_eas / b_eas
+def divide(a_kwap, b_kwap):
+    return a_kwap / b_kwap
