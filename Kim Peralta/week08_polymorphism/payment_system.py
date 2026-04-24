@@ -1,18 +1,18 @@
-class Payment_eas:
-    def pay_eas(self_eas):
+class Payment_kwap:
+    def pay_kwap(self_kwap):
         print("Processing payment")
 
 
-class CashPayment_eas(Payment_eas):
-    def pay_eas(self_eas):
+class CashPayment_kwap(Payment_kwap):
+    def pay_kwap(self_kwap):
         print("Payment made using cash")
 
 
-class CardPayment_eas(Payment_eas):
-    def pay_eas(self_eas):
+class CardPayment_kwap(Payment_kwap):
+    def pay_kwap(self_kwap):
         print("Payment made using credit card")
 
 
-payments_eas = [CashPayment_eas(), CardPayment_eas()]
-for p_eas in payments_eas:
-    p_eas.pay_eas()
+payments_kwap = [CashPayment_kwap(), CardPayment_kwap()]
+for p_kwap in payments_kwap:
+    p_kwap.pay_kwap()
