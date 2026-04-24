@@ -1,15 +1,16 @@
-class Employee_eas:
-    def __init__(self_eas, name_eas):
-        self_eas.__name = name_eas
-        self_eas.__salary = 0
+class Employee_kwap:
+    def __init__(self_kwap, name_kwap):
+        self_kwap.__name = name_kwap
+        self_kwap.__salary = 0
 
-    def set_salary_eas(self_eas, salary_eas):
-        if salary_eas > 0:
-            self_eas.__salary = salary_eas
+    def set_salary_kwap(self_kwap, salary_kwap):
+        if salary_kwap > 0:
+            self_kwap.__salary = salary_kwap
 
-    def get_salary_eas(self_eas):
-        return self_eas.__salary
+    def get_salary_kwap(self_kwap):
+        return self_kwap.__salary
 
-emp_eas = Employee_eas("Ana")
-emp_eas.set_salary_eas(30000)
-print("Salary:", emp_eas.get_salary_eas())
+
+emp_kwap = Employee_kwap("Ana")
+emp_kwap.set_salary_kwap(30000)
+print("Salary:", emp_kwap.get_salary_kwap())
