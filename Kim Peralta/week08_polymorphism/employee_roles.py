@@ -1,18 +1,18 @@
-class Employee_eas:
-    def work_eas(self_eas):
+class Employee_kwap:
+    def work_kwap(self_kwap):
         print("Employee performs tasks")
 
 
-class Programmer_eas(Employee_eas):
-    def work_eas(self_eas):
+class Programmer_kwap(Employee_kwap):
+    def work_kwap(self_kwap):
         print("Programmer writes code")
 
 
-class Designer_eas(Employee_eas):
-    def work_eas(self_eas):
+class Designer_kwap(Employee_kwap):
+    def work_kwap(self_kwap):
         print("Designer creates UI designs")
 
 
-employees_eas = [Programmer_eas(), Designer_eas()]
-for emp_eas in employees_eas:
-    emp_eas.work_eas()
+employees_kwap = [Programmer_kwap(), Designer_kwap()]
+for emp_kwap in employees_kwap:
+    emp_kwap.work_kwap()
