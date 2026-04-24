@@ -1,16 +1,16 @@
-class Animal_eas:
-    def __init__(self_eas, name_eas):
-        self_eas.name_eas = name_eas
+class Animal_kwap:
+    def __init__(self_kwap, name_kwap):
+        self_kwap.name_kwap = name_kwap
 
-    def speak_eas(self_eas):
-        print(self_eas.name_eas, "makes a sound")
-
-
-class Dog_eas(Animal_eas):
-    def bark_eas(self_eas):
-        print(self_eas.name_eas, "barks")
+    def speak_kwap(self_kwap):
+        print(self_kwap.name_kwap, "makes a sound")
 
 
-dog1_eas = Dog_eas("Buddy")
-dog1_eas.speak_eas()
-dog1_eas.bark_eas()
+class Dog_kwap(Animal_kwap):
+    def bark_kwap(self_kwap):
+        print(self_kwap.name_kwap, "barks")
+
+
+dog1_kwap = Dog_kwap("Buddy")
+dog1_kwap.speak_kwap()
+dog1_kwap.bark_kwap()
