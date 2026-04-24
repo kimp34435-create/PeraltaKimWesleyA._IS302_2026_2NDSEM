@@ -1,11 +1,11 @@
-class Car_eas:
-    def __init__(self_eas, brand_eas, model_eas, year_eas):
-        self_eas.brand_eas = brand_eas
-        self_eas.model_eas = model_eas
-        self_eas.year_eas = year_eas
+class Car_kwap:
+    def __init__(self_kwap, brand_kwap, model_kwap, year_kwap):
+        self_kwap.brand_kwap = brand_kwap
+        self_kwap.model_kwap = model_kwap
+        self_kwap.year_kwap = year_kwap
     
-    def display_car_eas(self_eas):
-        print(self_eas.brand_eas, self_eas.model_eas, self_eas.year_eas)
+    def display_car_kwap(self_kwap):
+        print(self_kwap.brand_kwap, self_kwap.model_kwap, self_kwap.year_kwap)
 
-car1_eas = Car_eas("Toyota", "Corolla", 2020)
-car1_eas.display_car_eas()
+car1_kwap = Car_kwap("Toyota", "Corolla", 2020)
+car1_kwap.display_car_kwap()
