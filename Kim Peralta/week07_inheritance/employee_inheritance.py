@@ -1,19 +1,19 @@
-class Employee_eas:
-    def __init__(self_eas, name_eas, salary_eas):
-        self_eas.name_eas = name_eas
-        self_eas.salary_eas = salary_eas
+class Employee_kwap:
+    def __init__(self_kwap, name_kwap, salary_kwap):
+        self_kwap.name_kwap = name_kwap
+        self_kwap.salary_kwap = salary_kwap
 
 
-class Manager_eas(Employee_eas):
-    def __init__(self_eas, name_eas, salary_eas, department_eas):
-        super().__init__(name_eas, salary_eas)
-        self_eas.department_eas = department_eas
+class Manager_kwap(Employee_kwap):
+    def __init__(self_kwap, name_kwap, salary_kwap, department_kwap):
+        super().__init__(name_kwap, salary_kwap)
+        self_kwap.department_kwap = department_kwap
 
-    def display_manager_eas(self_eas):
-        print("Name:", self_eas.name_eas)
-        print("Salary:", self_eas.salary_eas)
-        print("Department:", self_eas.department_eas)
+    def display_manager_kwap(self_kwap):
+        print("Name:", self_kwap.name_kwap)
+        print("Salary:", self_kwap.salary_kwap)
+        print("Department:", self_kwap.department_kwap)
 
 
-manager1_eas = Manager_eas("John", 50000, "IT")
-manager1_eas.display_manager_eas()
+manager1_kwap = Manager_kwap("John", 50000, "IT")
+manager1_kwap.display_manager_kwap()
