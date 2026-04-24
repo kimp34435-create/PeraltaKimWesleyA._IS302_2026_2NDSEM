@@ -1,18 +1,18 @@
-class Animal_eas:
-    def speak_eas(self_eas):
+class Animal_kwap:
+    def speak_kwap(self_kwap):
         print("Animal makes a sound")
 
 
-class Dog_eas(Animal_eas):
-    def speak_eas(self_eas):
+class Dog_kwap(Animal_kwap):
+    def speak_kwap(self_kwap):
         print("Dog barks")
 
 
-class Cat_eas(Animal_eas):
-    def speak_eas(self_eas):
+class Cat_kwap(Animal_kwap):
+    def speak_kwap(self_kwap):
         print("Cat meows")
 
 
-animals_eas = [Dog_eas(), Cat_eas()]
-for animal_eas in animals_eas:
-    animal_eas.speak_eas()
+animals_kwap = [Dog_kwap(), Cat_kwap()]
+for animal_kwap in animals_kwap:
+    animal_kwap.speak_kwap()
