@@ -1,3 +1,3 @@
-languages_eas = ["Python", "Java", "C++", "JavaScript", "PHP"]
-for lang_eas in languages_eas:
-    print(lang_eas)
+languages_kwap = ["Python", "Java", "C++", "JavaScript", "PHP"]
+for lang_kwap in languages_kwap:
+    print(lang_kwap)
