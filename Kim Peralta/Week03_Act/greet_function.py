@@ -1,4 +1,4 @@
-def greet_student_eas():
+def greet_student_kwap():
     print("Welcome to Object-Oriented Programming")
 
-greet_student_eas()
+greet_student_kwap()
