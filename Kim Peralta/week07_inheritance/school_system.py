@@ -1,38 +1,39 @@
-class Person_eas:
-    def __init__(self_eas, name_eas, age_eas):
-        self_eas.name_eas = name_eas
-        self_eas.age_eas = age_eas
+class Person_kwap:
+    def __init__(self_kwap, name_kwap, age_kwap):
+        self_kwap.name_kwap = name_kwap
+        self_kwap.age_kwap = age_kwap
 
-    def display_info_eas(self_eas):
-        print("Name:", self_eas.name_eas)
-        print("Age:", self_eas.age_eas)
-
-
-class Student_eas(Person_eas):
-    def __init__(self_eas, name_eas, age_eas, course_eas):
-        super().__init__(name_eas, age_eas)
-        self_eas.course_eas = course_eas
-
-    def display_info_eas(self_eas):
-        super().display_info_eas()
-        print("Course:", self_eas.course_eas)
+    def display_info_kwap(self_kwap):
+        print("Name:", self_kwap.name_kwap)
+        print("Age:", self_kwap.age_kwap)
 
 
-class Teacher_eas(Person_eas):
-    def __init__(self_eas, name_eas, age_eas, subject_eas):
-        super().__init__(name_eas, age_eas)
-        self_eas.subject_eas = subject_eas
+class Student_kwap(Person_kwap):
+    def __init__(self_kwap, name_kwap, age_kwap, course_kwap):
+        super().__init__(name_kwap, age_kwap)
+        self_kwap.course_kwap = course_kwap
 
-    def display_info_eas(self_eas):
-        super().display_info_eas()
-        print("Subject:", self_eas.subject_eas)
+    def display_info_kwap(self_kwap):
+        super().display_info_kwap()
+        print("Course:", self_kwap.course_kwap)
+
+
+class Teacher_kwap(Person_kwap):
+    def __init__(self_kwap, name_kwap, age_kwap, subject_kwap):
+        super().__init__(name_kwap, age_kwap)
+        self_kwap.subject_kwap = subject_kwap
+
+    def display_info_kwap(self_kwap):
+        super().display_info_kwap()
+        print("Subject:", self_kwap.subject_kwap)
 
 
 # Example usage
-student_eas = Student_eas("Maria", 20, "BSIS")
-teacher_eas = Teacher_eas("Mr. Smith", 45, "Mathematics")
+student_kwap = Student_kwap("Maria", 20, "BSIS")
+teacher_kwap = Teacher_kwap("Mr. Smith", 45, "Mathematics")
 
 print("Student Info:")
-student_eas.display_info_eas()
+student_kwap.display_info_kwap()
+
 print("\nTeacher Info:")
-teacher_eas.display_info_eas()
+teacher_kwap.display_info_kwap()
